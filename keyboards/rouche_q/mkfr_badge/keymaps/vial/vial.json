@@ -1,0 +1,16 @@
+{
+  "manufacturer": "KHOR",
+  "name": "MKFR Badge",
+  "vendorId": "0x6F6A",
+  "productId": "0x5344",
+
+  "matrix": {
+    "rows": 1,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1"]
+    ]
+  }
+}

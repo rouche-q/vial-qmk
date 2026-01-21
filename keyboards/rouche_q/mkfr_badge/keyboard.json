@@ -1,0 +1,37 @@
+{
+    "manufacturer": "rouche-q",
+    "keyboard_name": "mkfr_badge",
+    "maintainer": "rouche-q",
+    "diode_direction": "COL2ROW",
+    "bootloader": "rp2040",
+    "processor": "RP2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "oled": true
+    },
+    "oled": {
+        "driver": "ssd1306",
+        "": ""
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP4", "GP7"]
+        ]
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 0, "y": 1}
+            ]
+        }
+    }
+}

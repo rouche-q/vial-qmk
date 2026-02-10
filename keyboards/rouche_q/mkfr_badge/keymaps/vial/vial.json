@@ -12,5 +12,14 @@
     "keymap": [
       ["0,0", "0,1"]
     ]
-  }
+  },
+  "combos": [
+    {
+      "name": "KURUJE_COMBO",
+      "keys": ["KC_1", "KC_2"],
+      "modifiers": [],
+      "tap": "KC_NO",
+      "hold": null
+    }
+  ]
 }

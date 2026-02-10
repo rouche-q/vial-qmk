@@ -10,11 +10,11 @@
         "extrakey": true,
         "mousekey": true,
         "nkro": true,
-        "oled": true
+        "oled": true,
+        "combo": true
     },
     "oled": {
         "driver": "ssd1306",
-        "": ""
     },
     "matrix_pins": {
         "direct": [
